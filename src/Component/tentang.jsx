@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'reactstrap';
 
-export default class tentang extends React.Component {
+export default class Ttg extends React.Component {
     render() {
       return (
         <div style={{textAlign: 'center', borderTop: '1px solid #e7e7e7', boxSizing: 'border-box'}}>;

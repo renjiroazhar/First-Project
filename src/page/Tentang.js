@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../Component/Navbar';
-import '../Component/tentang';
+import Ttg from'../Component/tentang';
 import Footer from '../Component/Footer';
 
 export default class Tentang extends React.Component {
@@ -8,7 +8,7 @@ export default class Tentang extends React.Component {
     return (
       <div>
         <Navbar />
-        <Tentang />
+        <Ttg />
         <Footer />
     </div>
     );

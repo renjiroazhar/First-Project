@@ -26,7 +26,7 @@ export default class navbar extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="sanlight-body" style={{ borderBottom: '1px solid #e7e7e7' }}>
         <Navbar className="navbar-expand-md navbar-collapse navbar-collapse" color="light" light expand="md">
         <NavbarBrand>
         <img height="50px" src="http://i63.tinypic.com/oid9xu.png" alt="props"></img>
@@ -51,7 +51,7 @@ export default class navbar extends React.Component {
                 <NavLink href="/Tentang">Tentang Kami</NavLink>
               </NavItem>
               <NavItem>
-              <Button className="btn-outline-primary btn a" color="success">Log in/ SIgn up</Button>
+              <Button className="btn-outline-primary btn a" color="success">Log in/ Sign up</Button>
               </NavItem>
             </Nav>
           </Collapse>

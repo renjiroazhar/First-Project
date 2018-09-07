@@ -23,11 +23,14 @@ const Kartu = (props) => {
             <a className='text-secondary small'>by Santren Koding</a>
             </div>
             <div className="col 7">
-                  <span textAlign='right'
-                  color='red'
-                  className='small'
-                  >Kuota Terbatas</span>
-              </div>
+            <span
+                textAlign="right"
+                color="red"
+                className="small"
+                style={{ marginRight: '15px', color: 'red' }}>
+                Kuota Terbatas
+              </span>
+            </div>
           </Row>
         </CardBody>
       </Card>
@@ -44,10 +47,13 @@ const Kartu = (props) => {
             <a className='text-secondary small'>by Santren Koding</a>
             </div>
             <div className="col 7">
-                  <span textAlign='right'
-                  color='red'
-                  className='small'
-                  >Kuota Terbatas</span>
+            <span
+              textAlign="right"
+              color="red"
+              className="small"
+              style={{ marginRight: '15px', color: 'red' }}>
+              Kuota Terbatas
+            </span>
               </div>
           </Row>
         </CardBody>
@@ -65,10 +71,13 @@ const Kartu = (props) => {
             <a className='text-secondary small'>by Santren Koding</a>
             </div>
             <div className="col 7">
-                  <span textAlign='right'
-                  color='red'
-                  className='small'
-                  >Kuota Terbatas</span>
+            <span
+              textAlign="right"
+              color="red"
+              className="small"
+              style={{ marginRight: '15px', color: 'red' }}>
+              Kuota Terbatas
+            </span>
               </div>
           </Row>
         </CardBody>
@@ -77,7 +86,7 @@ const Kartu = (props) => {
     </Row>
     </Container>
 
-    <center><Button outline color="success" style={{margin:'30px', alignContent:'center'}}>Lihat Seluruh Kajian Koding</Button></center>
+    <center><Button href="/kajian-koding" outline color="success" style={{margin:'30px', alignContent:'center'}}>Lihat Seluruh Kajian Koding</Button></center>
 
     </div>
   );

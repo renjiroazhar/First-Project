@@ -13,10 +13,10 @@ class App extends Component {
       <BrowserRouter>
         <div>
           <Route path="/" exact component={ Beranda }/>
-          <Route path="/Kajian" component={ Kajian }/>
-          <Route path="/Kilat" component={ Kilat }/>
-          <Route path="/Mondok" component={ Mondok }/>
-          <Route path="/Tentang" component={ Tentang }/>
+          <Route path="/kajian-koding" component={ Kajian }/>
+          <Route path="/santren-kilat" component={ Kilat }/>
+          <Route path="/mondok" component={ Mondok }/>
+          <Route path="/tentang-kami" component={ Tentang }/>
         </div>
       </BrowserRouter>
     );
