@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Component/Navbar';
 import Footer from '../Component/Footer';
-import '../Component/Jumbotron.css';
+import '../Component/Jumbotronn.css';
 import Jumboo from '../Component/Jumbotronn';
 
 export default class Mondok extends React.Component {
@@ -10,11 +10,10 @@ export default class Mondok extends React.Component {
       <div>
         <Navbar />
         <Jumboo />
-          <br/>
           
           <center> <h2 className='my-1'>KABAR GEMBIRA 
             <br/>UNTUK KAMU YANG PASSION DIBIDANG IT</h2></center>
-            <center><p className="des my-2">Santren Koding saat ini sedang membuka pendaftaran santri baru.<br/>Bidang keahlian yang dibuka adalah Mobile Development dan Web Development dengan jenjang 3 tahun lama masa pembelajaran dan live project.
+            <center><p className="des my-2 tulis">Santren Koding saat ini sedang membuka pendaftaran santri baru.<br/>Bidang keahlian yang dibuka adalah Mobile Development dan Web Development dengan jenjang 3 tahun lama masa pembelajaran dan <br /> live project.
             
         <br/>
       

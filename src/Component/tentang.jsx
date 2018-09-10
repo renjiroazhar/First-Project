@@ -4,7 +4,7 @@ import { Container } from 'reactstrap';
 export default class Ttg extends React.Component {
     render() {
       return (
-        <div style={{textAlign: 'center', borderTop: '1px solid #e7e7e7', boxSizing: 'border-box'}}>;
+        <div style={{textAlign: 'center', borderTop: '1px solid #e7e7e7', boxSizing: 'border-box'}}>
         <br />
         <h3>Tentang Santren Koding <br /><br /></h3>
             <Container >

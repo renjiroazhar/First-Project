@@ -39,16 +39,16 @@ export default class navbar extends React.Component {
                 <NavLink href="/">Beranda</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Kajian">Kajian Koding</NavLink>
+                <NavLink href="/kajian-koding">Kajian Koding</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Kilat">Santren Kilat</NavLink>
+                <NavLink href="/santren-kilat">Santren Kilat</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Mondok">Mondok</NavLink>
+                <NavLink href="/mondok">Mondok</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Tentang">Tentang Kami</NavLink>
+                <NavLink href="/tentang-kami">Tentang Kami</NavLink>
               </NavItem>
               <NavItem>
               <Button className="btn-outline-primary btn a" color="success">Log in/ Sign up</Button>
