@@ -18,11 +18,12 @@ import {
   CardBody
 } from 'reactstrap';
 import { Container } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 export default class Beranda extends React.Component {
   render() {
     return (
-      <div>
+      <div style={{backgroundColor: 'rgb(250, 250, 250)'}}>
         <Navbar />
         <Jumbotron />
         <Kartu />
@@ -69,16 +70,16 @@ export default class Beranda extends React.Component {
             </Row>
           </Container>
         </div>
-        <center><Button href="/santren-kilat" outline color="success" className="my-4">
+        <center><Button tag={Link} to="/santren-kilat" outline color="success" className="my-4">
           Lihat Seluruh Santren Kilat
         </Button></center>
 
         <div className="sanl-body" style={{ borderTop: '1px solid #e7e7e7' }}>
           <br />
-          <div className="container">
+          <div className="gambar container">
             <div className="row">
               <div
-                className="Warna-biru col-12 col-sm-12 col-md-6 col-lg-6"
+                className="col-12 col-sm-12 col-md-6 col-lg-6"
                 style={{ backgroundColor: '#0bc72a', color: '#fff' }}>
                 <div className="card-body">
                   <h4 className="card-title text-center">Kegiatan</h4>
@@ -121,7 +122,7 @@ export default class Beranda extends React.Component {
               </div>
 
               <div
-                className="Warna-putih col-12 col-sm-12 col-md-6 col-lg-6"
+                className="col-12 col-sm-12 col-md-6 col-lg-6"
                 style={{ backgroundColor: '#fff' }}>
                 <div className="card-body mx-0" style={{ border: '' }}>
                   <center><img
@@ -133,7 +134,7 @@ export default class Beranda extends React.Component {
                     "Memberi Manfaat Untuk Umat"
                   </h4>
                   <br />
-                  <center><h6>-Santren Koding-</h6></center>
+                  <center><p className="tulisan">-Santren Koding-</p></center>
                 </div>
               </div>
             </div>
@@ -172,9 +173,9 @@ export default class Beranda extends React.Component {
           </div>
         </div>
 
-        <center><button href="/mondok" className="btn btn-outline-success my-4" type="submit">
+        <center><Button tag={Link} to="/mondok" className="btn btn-outline-success my-4">
           Lihat Selengkapnya
-        </button></center>
+        </Button></center>
 
         <div className="sanl-body" style={{ borderTop: '1px solid #e7e7e7' }}>
           <br />

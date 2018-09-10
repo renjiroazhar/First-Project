@@ -4,12 +4,13 @@ import { CardBody, CardTitle } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
 import { Button } from 'reactstrap';
 import './Kartu.css';
+import { Link } from 'react-router-dom';
 
 const Kartu = (props) => {
   return (
     <div>
     <h2 style={{textAlign: 'center' , margin: '0px 0px 35px 0px'}}>Daftar Kajian Koding Rutin</h2>
-    <Container className="container">
+    <Container id="pelatihan" className="container">
     <Row>
       
     <Col xs="6" sm="4">
@@ -86,7 +87,7 @@ const Kartu = (props) => {
     </Row>
     </Container>
 
-    <center><Button href="/kajian-koding" outline color="success" style={{margin:'30px', alignContent:'center'}}>Lihat Seluruh Kajian Koding</Button></center>
+    <center><Button tag={Link} to="/kajian-koding" outline color="success" style={{margin:'30px', alignContent:'center'}}>Lihat Seluruh Kajian Koding</Button></center>
 
     </div>
   );

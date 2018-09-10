@@ -9,6 +9,7 @@ import {
   Nav,
   NavItem,
   NavLink} from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 export default class navbar extends React.Component {
   constructor(props) {
@@ -31,24 +32,24 @@ export default class navbar extends React.Component {
         <NavbarBrand>
         <img height="50px" src="http://i63.tinypic.com/oid9xu.png" alt="props"></img>
         </NavbarBrand>
-          <NavbarBrand href="../page/Beranda"> Santren Koding</NavbarBrand>
+          <NavbarBrand tag={Link} to="/"> Santren Koding</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/">Beranda</NavLink>
+                <NavLink tag={Link} to="/">Beranda</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/kajian-koding">Kajian Koding</NavLink>
+                <NavLink tag={Link} to="/kajian-koding">Kajian Koding</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/santren-kilat">Santren Kilat</NavLink>
+                <NavLink tag={Link} to="/santren-kilat">Santren Kilat</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/mondok">Mondok</NavLink>
+                <NavLink tag={Link} to="/mondok">Mondok</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/tentang-kami">Tentang Kami</NavLink>
+                <NavLink tag={Link} to="/tentang-kami">Tentang Kami</NavLink>
               </NavItem>
               <NavItem>
               <Button className="btn-outline-primary btn a" color="success">Log in/ Sign up</Button>

@@ -12,7 +12,7 @@ export default class Jumboo extends React.Component {
                 <center><p className="lead">Kegiatan Belajar Intensif 3 tahun Programming dan Qur'an</p></center>
                 <center>
                 <br />
-                <Button href="https://s.id/daftarmondok" color="success" className="btn btn-lg btn-success">Daftar Sekarang!</Button>{' '} 
+                <Button href="https://s.id/daftarmondok" color="success" className="btn btn-lg btn-success">Daftar Sekarang!</Button> 
                 </center>
             </Jumbotron>
         );
